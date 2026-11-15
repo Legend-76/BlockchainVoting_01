@@ -1,3 +1,26 @@
 # BlockchainVoting_01
- simple decentralized voting smart contract
- 这是开发分支的测试修改。
+
+> 课程开源实践：基于智能合约的区块链去中心化投票小工具
+
+本项目使用 Solidity 语言编写，是一个极简的链上投票智能合约。旨在利用区块链不可篡改的特性，解决传统电子投票中可能存在的后台篡改数据、透明度低等问题。
+
+## 功能特性
+
+- **安全投票**：基于 `msg.sender` 验证，确保每个钱包地址只能投一次票，防止刷票。
+- **实时查询**：任何人都可以随时查询候选人的当前得票数。
+- **去中心化**：所有投票记录均上链，无法被单方面篡改。
+
+## 运行环境
+
+- 浏览器打开 [Remix IDE](https://remix.ethereum.org/) 即可运行。
+- Solidity 编译器版本：`^0.8.0`。
+
+## 快速开始
+
+1. 复制 `Voting.sol` 中的代码到 Remix IDE。
+2. 点击 `Compile Voting.sol` 编译。
+3. 点击 `Deploy` 部署，输入候选人名字（如 "Alice"）即可开始投票。
+
+## 许可证
+
+本项目基于 [MIT License](LICENSE) 开源。
