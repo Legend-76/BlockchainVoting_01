@@ -42,21 +42,24 @@ BlockchainVoting_01/
 ├── CHANGELOG.md      # 版本更新日志
 └── LICENSE           # MIT 开源许可证
 
-快速开始 (如何运行)
+## 快速开始 (如何运行)
+
 本项目不需要在本地安装任何环境，只需打开浏览器即可运行：
 
-访问 Remix IDE。
+1. 访问 [Remix IDE](https://remix.ethereum.org/)。
+2. 在左侧 `contracts` 文件夹下新建一个文件，命名为 `Voting.sol`。
+3. 将本仓库中的 `Voting.sol` 源码复制并粘贴进去。
+4. 在左侧菜单栏点击 **Solidity Compiler**，点击 `Compile Voting.sol` 按钮完成编译。
+5. 切换到 **Deploy & Run Transactions** 菜单，点击橙色的 `Deploy` 按钮部署合约。
+6. 在下方部署好的合约面板中，在 `vote` 旁边的输入框填入名字，点击 `vote` 即可完成一次投票。
 
-在左侧 contracts 文件夹下新建一个文件，命名为 Voting.sol。
+## 如何贡献
 
-将本仓库中的 Voting.sol 源码复制并粘贴进去。
+非常欢迎提交 Issue 反馈问题或提出改进建议！如果您想提交代码，请查阅 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详细流程。
 
-在左侧菜单栏点击 Solidity Compiler，点击 Compile Voting.sol 按钮完成编译。
+## 许可证
 
-切换到 Deploy & Run Transactions 菜单，点击橙色的 Deploy 按钮部署合约。
-
-在下方部署好的合约面板中，在 vote 旁边的输入框填入名字，点击 vote 即可完成一次投票。
-
+本项目基于极其宽松的 [MIT License](LICENSE) 开源。您可以自由地使用、修改和分发本项目的代码。
 如何贡献
 非常欢迎提交 Issue 反馈问题或提出改进建议！如果您想提交代码，请查阅 CONTRIBUTING.md 了解详细流程。
 
